@@ -1,0 +1,14 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		11251 332
+	}
+	history = {
+		owner = DEN
+		add_core_of = DEN
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
