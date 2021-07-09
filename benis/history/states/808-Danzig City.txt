@@ -1,0 +1,24 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		362 
+	}
+	history={
+		owner = POL
+		victory_points = {
+			362 10 
+		}
+		buildings = {
+			infrastructure = 6
+			362 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = POL
+
+	}
+	manpower=366730
+	buildings_max_level_factor=1.000
+	state_category=city
+}
