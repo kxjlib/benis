@@ -5,9 +5,9 @@ state={
 		713 746 3696 3709 9687 
 	}
 	history = {
-		owner=HUN
-		add_core_of=HUN
+		owner=ROM
 		add_core_of=ROM
+		add_claim_by=HUN
 	}
 	manpower=222736
 	state_category=town
