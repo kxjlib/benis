@@ -31,6 +31,17 @@ set_technology = {
 
 set_cosmetic_tag = BLR_litbel
 
+### POLISH-RUSSIAN WAR
+
+add_to_war = {
+	targeted_alliance = SOV
+	enemy = POL
+	hostility_reason = puppet
+}
+
+###
+
+
 set_popularities = {	democratic = 0	neutrality = 0	communism = 100	fascism = 0
 }
 

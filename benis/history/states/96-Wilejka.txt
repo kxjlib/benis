@@ -10,6 +10,7 @@ state={
 			406 1
 		}
 		owner = BLR
+		controller = POL
 		buildings = {
 			infrastructure = 4
 		}

@@ -1,0 +1,31 @@
+capital = 200
+
+oob = "MAK_1920"
+
+
+set_popularities = {
+	communism = 100
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Nestor Makhno"
+	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = anarchist_communism
+	traits = {
+		
+	}
+}
+
+declare_war_on = {
+	target = UKR
+	type = annex_everything
+}

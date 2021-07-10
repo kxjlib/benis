@@ -1,0 +1,3 @@
+capital = 797
+
+oob = "STR_1920"

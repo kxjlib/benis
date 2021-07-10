@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = BLR
+		controller = POL
 		buildings = {
 			infrastructure = 3
 
