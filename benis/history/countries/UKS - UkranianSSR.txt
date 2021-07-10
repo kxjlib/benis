@@ -86,48 +86,15 @@ add_to_war = {
 }
 
 create_country_leader = {
-	name = "Kost Levytsky"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
 	name = "Nikita Sergeyevich Khrushchev"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
+	picture = "Portrait_UkranianSSR_Grigory_Petrovsk.dds"
+	expire = "1938.7.25"
+	ideology = leninism
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
 
 
 

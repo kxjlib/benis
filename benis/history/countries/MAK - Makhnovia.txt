@@ -17,7 +17,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Nestor Makhno"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	picture = "Portrait_Makhnovia_Nestor_Makhno.dds"
 	expire = "1953.3.1"
 	ideology = anarchist_communism
 	traits = {
