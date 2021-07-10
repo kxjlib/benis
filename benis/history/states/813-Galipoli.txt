@@ -10,8 +10,6 @@ state={
 
 	history= {
 		owner = STR
-		victory_points = {
-		}
 		add_core_of = TUR
 		add_core_of = STR
 		if = {
