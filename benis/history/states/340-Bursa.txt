@@ -10,7 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = STR
+		owner = TUR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -23,11 +23,10 @@ state={
 		victory_points = {
 			9799 5
 		}
-		add_core_of = STR
 		add_core_of = TUR
 	}
 
 	provinces={
-		785 947 3786 3851 6864 6912 9799 9887 11778 11867 
+		785 947 3786 9799 11778 13238 
 	}
 }

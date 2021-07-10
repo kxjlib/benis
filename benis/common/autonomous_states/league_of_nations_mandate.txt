@@ -3,7 +3,7 @@ autonomy_state = {
 	
 	is_puppet = yes
 	
-	min_freedom_level = 0.50
+	min_freedom_level = 0.00
 	
 	manpower_influence = 0.2
 	
@@ -44,6 +44,10 @@ autonomy_state = {
 			limit = { has_dlc = "Death or Dishonor" }
 			NOT = { has_government = fascism }
 		}
+	}
+	
+	allowed_levels_filter = {
+		autonomy_league_of_nations_mandate
 	}
 	
 	can_take_level = {
