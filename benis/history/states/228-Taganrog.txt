@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = UKR
+		controller = UKS
 		victory_points = {
 			9461 1
 		}
@@ -16,6 +17,7 @@ state={
 		}
 		add_claim_by = SOV
 		add_core_of = UKR
+		add_core_of = UKS
 	}
 
 	provinces={

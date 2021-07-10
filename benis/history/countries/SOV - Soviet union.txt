@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-oob = "SOV_1936"
+oob = "SOV_1920"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SOV_1936_naval_mtg"
@@ -90,6 +90,10 @@ if = {
 	}
 	set_autonomy = {
 		target = BLR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = UKS
 		autonomous_state = autonomy_puppet
 	}
 }

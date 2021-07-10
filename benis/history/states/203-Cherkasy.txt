@@ -17,6 +17,10 @@ state={
 		}
 		add_claim_by = SOV
 		add_core_of = UKR
+		add_core_of = UKS
+		
+		UKS = { set_province_controller = 9491 }
+		UKS = { set_province_controller = 11530 }
 	}
 
 	provinces={

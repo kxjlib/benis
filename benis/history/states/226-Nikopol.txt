@@ -23,8 +23,15 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
+		UKS = { set_province_controller = 9479 }
+		UKS = { set_province_controller = 11452 }
+		UKS = { set_province_controller = 486 }
+		UKS = { set_province_controller = 472 }
+		UKS = { set_province_controller = 453 }
+		UKS = { set_province_controller = 9463 }
 		add_claim_by = SOV
 		add_core_of = UKR
+		add_core_of = UKS
 	}
 
 	provinces={

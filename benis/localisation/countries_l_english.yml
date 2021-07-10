@@ -3179,3 +3179,6 @@
  MAK_communism:0 "Makhnovia"
  MAK_communism_ADJ:0 "Ukranian"
  MAK_communism_DEF:0 "The Ukranian Insurrectionary Army"
+ UKS_communism:0 "Ukranian SSR"
+ UKS_communism_ADJ:0 "Ukranian"
+ UKS_communism_DEF:0 "The Ukranian Soviet Socialist Republic"

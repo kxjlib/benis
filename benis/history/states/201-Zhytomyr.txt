@@ -11,12 +11,14 @@ state={
 			6593 3
 		}
 		owner = UKR
+		controller = UKS
 		buildings = {
 			infrastructure = 5
 			air_base = 3
 		}
 		add_claim_by = SOV
 		add_core_of = UKR
+		add_core_of = UKS
 	}
 
 	provinces={
