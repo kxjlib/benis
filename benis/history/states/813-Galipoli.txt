@@ -4,7 +4,7 @@ state={
 	provinces={
 		849 3879 6895 
 	}
-	manpower = 100
+	manpower = 45315
 	
 	state_category = city
 
@@ -12,6 +12,9 @@ state={
 		owner = STR
 		add_core_of = TUR
 		add_core_of = STR
+		victory_points = {
+			849 3
+		}
 		if = {
 			limit = { has_dlc = "Battle for the Bosporus"}
 			set_demilitarized_zone = yes
