@@ -1,0 +1,18 @@
+state={
+	id=814
+	name="STATE_814"
+	provinces={
+		3851 6864 6912 9887 11867 13239
+	}
+	manpower = 45315
+	
+	state_category = city
+
+	history= {
+		owner = STR
+		add_core_of = TUR
+		add_core_of = STR
+		victory_points = {
+			6864 3
+	}
+}
