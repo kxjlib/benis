@@ -1,5 +1,9 @@
 #reload countrycolors
 
+RUS = {
+	color = rgb { 6 140 2 }
+	color_ui = rgb { 209 247 133 }
+}
 UKS = {
 	color = rgb { 151 61 70 }
 	color_ui = rgb { 163 17 31 }

@@ -3186,3 +3186,6 @@
  MOS_democratic_ADJ:0 "Mosellander"
  MOS_democratic_DEF:0 "Moselland"
  MOS_subject:1 "$OVERLORDADJ$ Rheinland"
+ RUS:0 "All-Russian State"
+ RUS_DEF:0 "The All-Russian State"
+ RUS_ADJ:0 "Russian"

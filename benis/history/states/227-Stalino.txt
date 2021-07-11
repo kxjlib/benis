@@ -15,9 +15,13 @@ state={
 		victory_points = {
 			6474 10
 		}
+		MAK = { set_province_controller = 6776 }
+		MAK = { set_province_controller = 3421 }
+		MAK = { set_province_controller = 6420 }
 		add_claim_by = SOV
 		add_core_of = UKR
 		add_core_of = UKS
+		add_core_of = MAK
 	}
 
 	provinces={

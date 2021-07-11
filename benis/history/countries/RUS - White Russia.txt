@@ -61,25 +61,25 @@ if = {
 }
 
 set_popularities = {
-	democratic = 75
-	neutrality = 20
-	communism = 5
-	fascism = 0
+	democratic = 0
+	neutrality = 0
+	communism = 0
+	fascism = 100
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "fart smella"
+	name = "Alexander Kolchak"
 	desc = ""
-	#picture = "Portrait_UkranianSSR_Grigory_Petrovsk.dds"
-	#expire = "1938.7.25"
-	ideology = conservatism
+	picture = "Portrait_Russia_Alexander_Kolchak.dds"
+	expire = "1938.7.25"
+	ideology = fascism_ideology
 	traits = {
 		
 	}
