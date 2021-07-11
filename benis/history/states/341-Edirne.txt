@@ -13,6 +13,8 @@ state= {
 
 	history= {
 		owner = GRE
+		controller = TUR
+		
 		victory_points = {
 			11842 5
 		}

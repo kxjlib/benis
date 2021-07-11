@@ -82,6 +82,10 @@ if = {
 		target = ARM
 		type = turkish_independence
 	}
+	declare_war_on = {
+		target = ITA
+		type = turkish_independence
+	}
 	
 	set_province_controller = 3851
 	set_province_controller = 6912 
@@ -89,19 +93,8 @@ if = {
 	set_province_controller = 11867 
 	set_province_controller = 13239 #below istanbul
 	
-	set_state_controller = 341
-	set_state_controller = 797
-	
 	set_province_controller = 3879
 	set_province_controller = 6895 #gallipoli state, but not city
-	
-	
-	#set_state_controller = 354
-	#set_state_controller = 800 #armenian stuff
-	
-	set_state_controller = 344
-	set_state_controller = 350
-	set_state_controller = 352
 }
 
 set_politics = {
