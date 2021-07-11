@@ -4,7 +4,7 @@ state={
 	provinces={
 		587 6570 9482
 	}
-	manpower = 45315
+	manpower = 2897822
 	
 	state_category = city
 
