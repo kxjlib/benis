@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = MOS
 		victory_points = {
 			11435 1 
 		}
@@ -18,6 +18,7 @@ state={
 
 		}
 		add_core_of = GER
+		add_core_of = MOS
 		set_demilitarized_zone = yes
 		1936.3.7 = {
 			set_demilitarized_zone = no
@@ -35,7 +36,7 @@ state={
 	}
 
 	provinces={
-		563 3423 3558 9575 11435 11470 11494 11547 
+		529 563 3423 3547 3558 6444 9575 11435 11470 11494 11547 11560
 	}
 	manpower=2290847
 	buildings_max_level_factor=1.000

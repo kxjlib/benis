@@ -3182,3 +3182,7 @@
  UKS_communism:0 "Ukranian SSR"
  UKS_communism_ADJ:0 "Ukranian"
  UKS_communism_DEF:0 "The Ukranian Soviet Socialist Republic"
+ MOS_democratic:0 "Moselland"
+ MOS_democratic_ADJ:0 "Mosellander"
+ MOS_democratic_DEF:0 "Moselland"
+ MOS_subject:1 "$OVERLORDADJ$ Rheinland"

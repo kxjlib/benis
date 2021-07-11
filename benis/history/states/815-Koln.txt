@@ -1,0 +1,28 @@
+state={
+	id=815
+	name="STATE_815"
+	provinces={
+		587 6570 9482
+	}
+	manpower = 45315
+	
+	state_category = city
+
+	history= {
+		owner = ENG
+		add_core_of = GER
+		
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		
+		set_demilitarized_zone = yes
+		
+		victory_points = {
+			587 5 
+		}
+	}
+}

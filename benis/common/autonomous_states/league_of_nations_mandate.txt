@@ -2,8 +2,9 @@ autonomy_state = {
 	id = autonomy_league_of_nations_mandate
 	
 	is_puppet = yes
+	use_overlord_color = yes
 	
-	min_freedom_level = 0.00
+	min_freedom_level = 0.5
 	
 	manpower_influence = 0.2
 	
@@ -40,11 +41,6 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
-		}
 	}
 	
 	allowed_levels_filter = {

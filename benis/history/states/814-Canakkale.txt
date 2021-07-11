@@ -14,5 +14,6 @@ state={
 		add_core_of = STR
 		victory_points = {
 			6864 3
+		}
 	}
 }
