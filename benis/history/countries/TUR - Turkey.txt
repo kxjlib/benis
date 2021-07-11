@@ -214,19 +214,16 @@ if = {
 		target = STR
 		type = turkish_independence
 	}
-	
 	declare_war_on = {
 		target = GRE
 		type = turkish_independence
 	}
-	
-	declare_war_on = {
-		target = ENG
-		type = turkish_independence
-	}
-	
 	declare_war_on = {
 		target = FRA
+		type = turkish_independence
+	}
+	declare_war_on = {
+		target = ARM
 		type = turkish_independence
 	}
 	
@@ -243,8 +240,12 @@ if = {
 	set_province_controller = 6895 #gallipoli state, but not city
 	
 	
+	set_state_controller = 354
+	set_state_controller = 800 #armenian stuff
 	
-	
+	set_state_controller = 344
+	set_state_controller = 350
+	set_state_controller = 352
 }
 
 set_politics = {
