@@ -1,0 +1,51 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = TUR
+		victory_points = {
+			4512 5 
+		}
+		victory_points = {
+			9823 1 
+		}
+		victory_points = {
+			12387 1 
+		}
+		victory_points = {
+			10497 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		if = {
+			limit = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			add_core_of = KUR
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			add_core_of = TUR
+			add_core_of = KUR
+		}
+		add_claim_by = FRA
+		
+		TUR = { 
+			set_province_controller = 10497 
+			set_province_controller = 11739 
+		}
+	}
+
+	provinces={
+		4512 9823 10497 11739 11759 11871 12387 12416 
+	}
+	manpower=571935
+	state_category=town
+}

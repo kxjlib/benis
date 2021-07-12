@@ -20,6 +20,10 @@ state={
 				naval_base = 3
 				coastal_bunker = 2
 			}
-		}		
+		}
+		TUR = { 
+			set_province_controller = 3879
+			set_province_controller = 6895
+		}
 	}
 }

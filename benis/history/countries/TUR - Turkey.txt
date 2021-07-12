@@ -86,15 +86,6 @@ if = {
 		target = ITA
 		type = turkish_independence
 	}
-	
-	set_province_controller = 3851
-	set_province_controller = 6912 
-	set_province_controller = 9887 
-	set_province_controller = 11867 
-	set_province_controller = 13239 #below istanbul
-	
-	set_province_controller = 3879
-	set_province_controller = 6895 #gallipoli state, but not city
 }
 
 set_politics = {

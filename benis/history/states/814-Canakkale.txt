@@ -15,5 +15,12 @@ state={
 		victory_points = {
 			6864 3
 		}
+		
+		TUR = {
+			set_province_controller = 3851
+			set_province_controller = 6912 
+			set_province_controller = 11867 
+			set_province_controller = 13239 
+		}
 	}
 }
