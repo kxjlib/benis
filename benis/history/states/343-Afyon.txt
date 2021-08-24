@@ -2,7 +2,7 @@
 state={
 	id=343
 	name="STATE_343" # Afyon
-	manpower = 1318543
+	manpower = 1013241
 	resources={
 		chromium=25 # was: 32
 	}
@@ -11,9 +11,6 @@ state={
 
 	history={
 		owner = TUR
-		victory_points = {
-			10041 1 
-		}
 		victory_points = {
 			9878 5
 		}
@@ -28,6 +25,6 @@ state={
 	}
 
 	provinces={
-		856 981 3856 3983 3927 6877 6992 6945 7130 9878 9929 10041 11796 11917 11831 11898 11907 12013 12016
+		856 981 3856 3983 6877 6945 9878 11796 11831 11898
 	}
 }

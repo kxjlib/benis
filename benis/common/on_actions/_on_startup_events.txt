@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			ENG = {
+				country_event = { id = turkish_war_of_independence_event.1 days = 90 random_days = 120 }
+			}
+		}
+	}
+}

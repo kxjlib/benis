@@ -4,9 +4,14 @@ state={
 	name="STATE_345"
 
 	history={
-		owner = FRA
+		owner = TUR
+		controller = FRA
+		
 		victory_points = {
 			10056 1 
+		}
+		victory_points = {
+			11746 5 
 		}
 		victory_points = {
 			11810 5 
@@ -16,11 +21,10 @@ state={
 
 		}
 		add_core_of = TUR
-		add_claim_by = FRA
 	}
 
 	provinces={
-		4008 4124 7026 10056 11810 
+		4008 4124 7026 10056 11746 11810 
 	}
 	manpower=405798
 	buildings_max_level_factor=1.000

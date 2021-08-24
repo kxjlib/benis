@@ -1,0 +1,17 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = TUR
+					TUR = {
+						has_war_with = ENG
+					}
+				}
+				TUR = {
+					country_event = { id = peace_deal_event.1 }	
+				}
+			}
+		}
+	}
+}

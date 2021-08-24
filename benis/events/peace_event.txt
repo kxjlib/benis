@@ -1,0 +1,93 @@
+add_namespace = peace_deal_event
+
+
+country_event = { #TURKEY LOSES WAR OF INDEPENDENCE BY CAPITULATING, RESULTING IN FAR HARSHER TERMS
+	id = peace_deal_event.1
+	title = peace_deal_event.1.t
+	desc = peace_deal_event.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			TUR = {
+				white_peace = {
+					tag  = ENG
+					message = turkish_independence_loss_treaty_text.i
+				}
+				
+				set_capital = 49
+			}
+		
+			clr_global_flag = turkish_war_of_independence_flag
+			set_global_flag = turkish_war_of_independence_lost_flag
+	
+			GRE = { 
+				transfer_state = 339 
+				transfer_state = 341
+			}
+			
+			STR = { 
+				transfer_state = 797
+				transfer_state = 813
+				transfer_state = 814
+			}
+			
+			ITA = {
+				transfer_state = 164
+				transfer_state = 342
+			}
+			
+			164 = { remove_claim_by = TUR }
+			
+			FRA = {
+				transfer_state = 344		
+				transfer_state = 345	
+				transfer_state = 816		
+
+				if = {
+					limit = { ENG = { owns_state = 680 } }
+					transfer_state = 680
+				}
+				if = {
+					limit = { ENG = { owns_state = 818 } }
+					transfer_state = 818
+				}
+			}
+			
+			ENG = {
+				if = {
+					limit = { owns_state = 184 } 
+					country_event = turkish_war_of_independence_event.1
+				}
+			}	
+			
+			ARM = {
+				transfer_state = 354
+				transfer_state = 800
+			}
+			
+			KUR = {
+				transfer_state = 352
+				transfer_state = 353
+				transfer_state = 350
+			}
+			
+			339 = { set_state_name = "Ionia" }
+			
+			184 = { set_state_name = "West Thrace" }
+			341 = { set_state_name = "East Thrace" }
+			set_province_name = { id = 11842 name = "Adrianople" }
+			
+			354 = { set_state_name = "Trebizond" }
+			set_province_name = { id = 11853 name = "Erzerum" }
+			
+		}
+	}
+	
+	option = {
+		name = peace_deal_event.1.a
+		ai_chance = { factor = 75 }
+	}
+}

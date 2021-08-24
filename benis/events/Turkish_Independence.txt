@@ -1,0 +1,39 @@
+add_namespace = turkish_war_of_independence_event
+
+
+country_event = {
+	id = turkish_war_of_independence_event.1
+	title = turkish_war_of_independence_event.1.t
+	desc = turkish_war_of_independence_event.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = turkish_war_of_independence_event.1.a
+		ai_chance = { factor = 100 }
+		
+		
+		
+		GRE = {
+			transfer_state = 184
+		
+			country_event = { id = turkish_war_of_independence_event.2 } 
+		}
+	}
+}
+
+
+country_event = {
+	id = turkish_war_of_independence_event.2
+	title = turkish_war_of_independence_event.2.t
+	desc = turkish_war_of_independence_event.2.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = turkish_war_of_independence_event.2.a
+		ai_chance = { factor = 100 }
+	}
+}

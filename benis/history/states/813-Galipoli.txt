@@ -9,7 +9,7 @@ state={
 	state_category = city
 
 	history= {
-		owner = STR
+		owner = TUR
 		add_core_of = TUR
 		add_core_of = STR
 		victory_points = {
@@ -21,9 +21,8 @@ state={
 				coastal_bunker = 2
 			}
 		}
-		TUR = { 
-			set_province_controller = 3879
-			set_province_controller = 6895
+		ENG = { 
+			set_province_controller = 849
 		}
 	}
 }

@@ -1,0 +1,29 @@
+state={
+	id=818
+	name="STATE_818"
+	manpower = 83480
+	
+	state_category = town
+
+	history={
+		owner = ENG
+		victory_points = {
+			9823 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			11746 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+		add_claim_by = FRA
+	}
+
+	provinces={
+	   9823 11871 12416 13241
+	}
+
+}

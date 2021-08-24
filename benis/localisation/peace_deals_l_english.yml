@@ -1,0 +1,6 @@
+﻿l_english:
+ peace_deal_event.1.t:0 "We have surrendered to the Entente"
+ peace_deal_event.1.d:0 "The Entente forces have taken too much territory for us to even attempt to retake. Any resistence is useless at this point. As this realisation dawned upon the leaders of the nation, it has been decided that we must sign The Treaty of Sèvres."
+ peace_deal_event.1.a:0 "How did this happen..."
+ 
+ turkish_independence_loss_treaty_text.i:0 "Turkey and the Entente have signed \n§YThe Revised Treaty of Sèvres§!."

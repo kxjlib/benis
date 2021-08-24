@@ -9,18 +9,16 @@ state={
 	state_category = city
 
 	history= {
-		owner = STR
+		owner = TUR
 		add_core_of = TUR
 		add_core_of = STR
 		victory_points = {
 			6864 3
 		}
 		
-		TUR = {
-			set_province_controller = 3851
-			set_province_controller = 6912 
-			set_province_controller = 11867 
-			set_province_controller = 13239 
+		ENG = {
+			set_province_controller = 6864
+			set_province_controller = 9887 
 		}
 	}
 }

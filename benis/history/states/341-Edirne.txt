@@ -12,8 +12,7 @@ state= {
 	state_category = town
 
 	history= {
-		owner = GRE
-		controller = TUR
+		owner = TUR
 		
 		victory_points = {
 			11842 5

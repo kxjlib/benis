@@ -1,4 +1,4 @@
-﻿capital = 49
+﻿capital = 797
 
 oob = "TUR_1920"
 
@@ -67,7 +67,7 @@ if = {
 	}
 
 	declare_war_on = {
-		target = STR
+		target = ENG
 		type = turkish_independence
 	}
 	declare_war_on = {
@@ -87,6 +87,8 @@ if = {
 		type = turkish_independence
 	}
 }
+
+set_global_flag = turkish_war_of_independence_flag
 
 set_politics = {
 	ruling_party = neutrality
