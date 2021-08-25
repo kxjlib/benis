@@ -83,11 +83,65 @@ country_event = { #TURKEY LOSES WAR OF INDEPENDENCE BY CAPITULATING, RESULTING I
 			354 = { set_state_name = "Trebizond" }
 			set_province_name = { id = 11853 name = "Erzerum" }
 			
+			TUR = { drop_cosmetic_tag = yes } 
 		}
 	}
 	
 	option = {
 		name = peace_deal_event.1.a
+		ai_chance = { factor = 75 }
+	}
+}
+
+
+country_event = { #IRISH LOSE WAR OF INDEPENDENCE
+	id = peace_deal_event.2
+	title = peace_deal_event.2.t
+	desc = peace_deal_event.2.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	immediate = {
+		hidden_effect = {
+			IRE = { 
+				white_peace = {
+					tag  = ENG
+					message = turkish_independence_loss_treaty_text.i
+				}
+				
+				transfer_state = 113
+				transfer_state = 119
+				transfer_state = 134
+				transfer_state = 135
+				transfer_state = 819
+				transfer_state = 820
+			}
+			
+			clr_global_flag = irish_war_of_independence_flag
+			set_global_flag = irish_war_of_independence_lost_flag
+			
+			ENG = { 
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = IRE
+						autonomy_state = autonomy_occupation_zone
+					}
+				}
+				else = {
+					puppet = IRE
+				}
+				
+				country_event = { id = irish_war_of_independence_event.1 days = 7 random_days = 14 } 
+			}
+		}
+	}
+	
+	option = {
+		name = peace_deal_event.2.a
 		ai_chance = { factor = 75 }
 	}
 }

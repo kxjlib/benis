@@ -1,0 +1,93 @@
+add_namespace = irish_war_of_independence_event
+
+
+country_event = { ###if the UK wins the war
+	id = irish_war_of_independence_event.1
+	title = irish_war_of_independence_event.1.t
+	desc = irish_war_of_independence_event.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = irish_war_of_independence_event.1.a
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		ENG = { 
+			annex_country = { target = IRE transfer_troops = no } 
+		}
+		
+		hidden_effect = {
+			IRE = { drop_cosmetic_tag = yes } 
+		}
+	}
+	option = {
+		name = irish_war_of_independence_event.1.b
+		
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 30
+				is_historical_focus_on = no
+			}
+		}
+		
+		ENG = {
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = {
+					target = IRE
+					autonomy_state = autonomy_dominion
+				}
+			}
+			else = {
+				puppet = IRE
+			}
+			
+			transfer_state = 119
+			
+			add_stability = -0.03
+		}
+		
+		hidden_effect = {
+			IRE = { drop_cosmetic_tag = yes } 
+		}
+	}
+	option = {
+		name = irish_war_of_independence_event.1.c
+		
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 30
+				is_historical_focus_on = no
+			}
+		}
+		
+		ENG = {
+			if = {
+				limit = {
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = {
+					target = IRE
+					autonomy_state = autonomy_dominion
+				}
+			}
+			else = {
+				puppet = IRE
+			}
+			
+			add_stability = -0.1
+		}
+		
+		hidden_effect = {
+			IRE = { drop_cosmetic_tag = yes } 
+		}
+	}
+}

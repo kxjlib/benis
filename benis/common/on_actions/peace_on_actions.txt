@@ -7,9 +7,22 @@ on_actions = {
 					TUR = {
 						has_war_with = ENG
 					}
+					has_global_flag = turkish_war_of_independence_flag
 				}
 				TUR = {
 					country_event = { id = peace_deal_event.1 }	
+				}
+			}
+			else_if = {
+				limit = {
+					tag = IRE
+					IRE = {
+						has_war_with = ENG
+					}
+					has_global_flag = irish_war_of_independence_flag
+				}
+				IRE = {
+					country_event = { id = peace_deal_event.2 }	
 				}
 			}
 		}

@@ -11,7 +11,7 @@ oob = "TUR_1920"
 #TUR_democratic
 #TUR_fascism
 #TUR_neutrality
-set_cosmetic_tag = TUR_neutrality
+set_cosmetic_tag = OTT_UNIFIED
 
 
 set_research_slots = 3
@@ -68,27 +68,22 @@ if = {
 
 	declare_war_on = {
 		target = ENG
-		type = turkish_independence
+		type = liberate_wargoal
 	}
 	declare_war_on = {
 		target = GRE
-		type = turkish_independence
+		type = liberate_wargoal
 	}
 	declare_war_on = {
 		target = FRA
-		type = turkish_independence
-	}
-	declare_war_on = {
-		target = ARM
-		type = turkish_independence
+		type = liberate_wargoal
 	}
 	declare_war_on = {
 		target = ITA
-		type = turkish_independence
+		type = liberate_wargoal
 	}
+	set_global_flag = turkish_war_of_independence_flag
 }
-
-set_global_flag = turkish_war_of_independence_flag
 
 set_politics = {
 	ruling_party = neutrality
@@ -96,8 +91,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	democratic = 8
+	communism = 2
+	neutrality = 90
 }
 
 set_convoys = 20
@@ -105,107 +101,24 @@ set_stability = 0.5
 set_war_support = 0.3
 
 
-if = {
-	limit = { has_dlc = "Battle for the Bosporus" }
-	create_country_leader = {
-		name = "Mustafa Kemal Atatürk"
-		desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
-		picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			father_of_the_turks
-		}
-	}
-	
-	create_country_leader = {
-		name = "Sefik Hüsnü"
-		desc = "POLITICS_SEFIK_HUSNU_DESC"
-		picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			reluctant_stalinist
-		}
-	}
-	
-	create_country_leader = {
-		name = "Celâl Bayar"
-		desc = "POLITICS_CELAL_BAYAR_DESC"
-		picture = "GFX_portrait_tur_celal_bayar"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			liberal_democratic_paragon
-		}
-	}
-	create_country_leader = {
-		name = "Mehmet Recep Peker"
-		desc = "POLITICS_MEHMET_RECEP_PEKER_DESC"
-		picture = "GFX_portrait_tur_recep_peker"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			the_statist
-		}
+create_country_leader = {
+	name = "Sultan Mehmed VI"
+	desc = ""
+	picture = "gfx/leaders/TUR/"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
 	}
 }
 
-if = {
-	limit = { NOT = { has_dlc = "Battle for the Bosporus" } }
-	# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
-	create_country_leader = {
-		name = "İsmet İnönü"
-		desc = "POLITICS_ISMET_INÖNÜ_DESC"
-		picture = "Portrait_Turkey_Ismet_Inonu.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-	
-	create_country_leader = {
-		name = "Mustafa Kemal Atatürk"
-		desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
-		picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
-		expire = "1938.11.10"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-	
-	create_country_leader = {
-		name = "Sefik Hüsnü"
-		desc = "POLITICS_SEFIK_HUSNU_DESC"
-		picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			#
-		}
-	}
-	
-	create_country_leader = {
-		name = "Celâl Bayar"
-		desc = "POLITICS_CELAL_BAYAR_DESC"
-		picture = "GFX_portrait_tur_celal_bayar"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
-	create_country_leader = {
-		name = "Fevzi Çakmak"
-		desc = "POLITICS_FEVZI_CAKMAK_DESC"
-		picture = "GFX_portrait_tur_fevzi_cakmak"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
+create_country_leader = {
+	name = "İsmet İnönü"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
 	}
 }
 

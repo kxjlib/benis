@@ -13239,4 +13239,6 @@
 13238;93;108;170;land;false;hills;6
 13239;92;159;48;land;false;hills;6
 13240;172;167;37;land;true;plains;7
-13241;221;70;171;land;true;plains;7
+13241;221;70;171;land;false;plains;7
+13242;136;116;159;land;true;town;2
+13243;105;35;120;land;true;hills;2

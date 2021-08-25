@@ -11,11 +11,7 @@ state={
 			9823 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			11746 = {
-				naval_base = 3
-			}
+			infrastructure = 3
 		}
 		add_core_of = TUR
 		add_core_of = KUR

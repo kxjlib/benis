@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="Benis"
-supported_version="1.10.7"
+supported_version="1.10.8"

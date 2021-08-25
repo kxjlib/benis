@@ -1,0 +1,29 @@
+state={
+	id=819
+	name="STATE_819"
+	manpower = 65480
+	
+	state_category = town
+
+	history={
+		owner = IRE
+		victory_points = {
+			13242 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			13242 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = IRE
+		add_core_of = ENG
+	}
+
+	provinces={
+	   13242
+	}
+
+}

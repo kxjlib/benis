@@ -19,8 +19,6 @@ state={
 		}
 		add_core_of = TUR
 		add_core_of = KUR
-		
-		TUR = { set_state_controller = 352 }
 	}
 
 	provinces={

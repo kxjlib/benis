@@ -1,0 +1,16 @@
+units = {
+	division = {
+		name = "uhh"
+		location = 11293
+		division_template = "IRA Militia"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "uhhh"
+		location = 11293
+		division_template = "IRA Militia"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
